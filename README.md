@@ -1,5 +1,5 @@
 # SBS - Spring Boot Start
-- If you are building a SB project for the first time, you will like it~!!
+> If you are building a SB project for the first time, you will like it~!!
 
 ### ※ W
 
@@ -7,7 +7,7 @@
 	
 	This document is only for beginners who don't struggle with project structure that very unrealistic. T.T
 
-
+> Add OAuth2.0 : []()
 
 ### ※ B
 
@@ -18,7 +18,7 @@
 
 ##### One. Make the project structure.
 
-- org.apache.maven.archetypes:maven-archetype-quickstart
+> org.apache.maven.archetypes:maven-archetype-quickstart
 
 ```
 ＋ parent
@@ -32,11 +32,17 @@
 
 ~~If you don't like it? A.. you can go!!! I let you go!!!~~
 
-- In order to understand the spring boot setup more clearly, I will just use the mvn to build a init at first. It's mean that we will depend the dependencies by ourselves.
+> In order to understand the spring boot setup more clearly, I will just use the mvn to build a init at first. It's mean that we will depend the dependencies by ourselves.
+
+##### ◆ parent-pom.xml
+
+```xml
+
+```
 
 ##### ◆ API
 
-- At first, API need to depend two self-defined modules;
+> At first, API need to depend two self-defined modules;
 
 ```xml
 <dependencies>
@@ -52,7 +58,7 @@
   </dependency>
 </dependencies>
 ```
-- spring boot's dependencies:
+> spring boot's dependencies:
 
 
 
@@ -70,14 +76,15 @@
 
 ##### ◆ WEB
 
-- Vue init webpack web-name
+**One. Vue init webpack web-name**
 
 ```
-	prepare:
+prepare:
 		npm
 		Node.js
 		vue-cli
 ```
+
 ![vue-init](images/vue-init.png)
 
 
