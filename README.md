@@ -7,7 +7,7 @@
 	
 	This document is only for beginners who don't struggle with project structure that very unrealistic. T.T
 
-> Add OAuth2.0 : []()
+> Add OAuth2.0 : [https://github.com/LANYE98/SBS/blob/master/doc/OAuth2.md](https://github.com/LANYE98/SBS/blob/master/doc/OAuth2.md)
 
 ### ※ B
 
