@@ -18,13 +18,16 @@
 
 ##### One. Make the project structure.
 
+- org.apache.maven.archetypes:maven-archetype-quickstart
+
 ```
 ＋ parent
-	- api               // Save the controller.
-	- web             // web resource such as pages.
-	- core             // entity and connect the database.
-	- service        // I'm omnipotent!?
-	- tool             // I'm ..emmm. Do you like to use me or not.
+  - api             // save the controller.
+  - core            // entity and connect the database.
+  - dao             // they like core.
+  - service         // I'm omnipotent!?
+  - tools           // I'm ..emmm. Do you like to use me or not.
+  + web             // vue web.
 ```
 
 ~~If you don't like it? A.. you can go!!! I let you go!!!~~
@@ -37,31 +40,44 @@
 
 ```xml
 <dependencies>
-	<dependency>
-    	<groupId>com.lanye.cm</groupId>
-        <artifactId>catchm-service</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>com.lanye.cm</groupId>
-        <artifactId>catchm-tool</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </dependency>
+  <dependency>
+    <groupId>com.lanye.cm</groupId>
+    <artifactId>catchm-service</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
+  <dependency>
+    <groupId>com.lanye.cm</groupId>
+    <artifactId>catchm-tool</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
 </dependencies>
 ```
 - spring boot's dependencies:
 
 
 
-##### ◆ WEB
-
-
 ##### ◆ CORE
+
+
+##### ◆ DAO
 
 
 ##### ◆ SERVICE
 
 
 ##### ◆ TOOL
+
+
+##### ◆ WEB
+
+- Vue init webpack web-name
+
+```
+	prepare:
+		npm
+		Node.js
+		vue-cli
+```
+![vue-init](E:\gitWorkspace\SBS\images\vue-init.png)
 
 
