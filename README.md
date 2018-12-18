@@ -78,6 +78,6 @@
 		Node.js
 		vue-cli
 ```
-![vue-init](E:\gitWorkspace\SBS\images\vue-init.png)
+![vue-init](.\images\vue-init.png)
 
 
